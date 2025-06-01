@@ -1,3 +1,16 @@
 body {
   background-color: lightblue;
 }
+
+@keyframes ani {
+  from {width: 100;}
+  to {width: 500;}
+}
+
+silly_div {
+  width: 100;
+  height: 100;
+  background-color: orange;
+  animation-name: ani;
+  animation-duration: 10s;
+}
