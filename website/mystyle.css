@@ -2,15 +2,46 @@ body {
   background-color: lightblue;
 }
 
-@keyframes ani {
-  from {width: 100;}
-  to {width: 500;}
+h1 {
+  text-align: center;
 }
 
-silly_div {
-  width: 100;
-  height: 100;
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+button {
+  position: absolute;
+}
+
+@keyframes ani {
+  from {
+    background-color: blue;
+    color: orange;
+    width: 200px;
+  }
+  to {
+    background-color: orange;
+    width: 100%;
+    color: blue;
+  }
+}
+
+.silly_div {
+  width: 100%;
+  height: 100px;
   background-color: orange;
-  animation-name: ani;
-  animation-duration: 10s;
+  animation: ani 10s;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+  margin: auto;
 }
